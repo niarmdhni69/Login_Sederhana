@@ -1,6 +1,9 @@
 html, body{
     height: 100%;
-    background-color: rgb(4, 18, 28) !important;
+    /* background-color: rgb(4, 18, 28) !important; */
+    background-image: url('frozen.jpeg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 }
 
 .global-container{
@@ -8,20 +11,20 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(136, 120, 120);
+    color: rgb(255, 255, 255);
 }
 
 .login-form{
     width: 380px;
     height: 450px;
     padding: 20px;
-    background-color: rgb(4, 18, 28) !important;
+    background-color: rgba(208, 129, 237, 0.668) !important;
     border-radius: 10px; 
 }
 
 input[type="email"],
 input[type="password"]{
-    background: rgb(136, 120, 120);
+    background: rgb(246, 245, 245);
     color: aliceblue;
     border: 2px solid  rgb(150, 211, 239);
     border-radius: 10px;
